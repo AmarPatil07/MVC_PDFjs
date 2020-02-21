@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>PDF Viewer Demo</h2>
+
+
+@*@Html.ActionLink("View Pdf #1", "Viewer", "Home", new { filePath = "/MyPDFs/Pdf1.pdf" }, new { target = "_blank" })
+<br />*@
+@Html.ActionLink("View Local Pdf #1", "Viewer", "Home", new { filePath = "/MyPDFs/Pdf2.pdf" }, new { target = "_blank" })
+<br />
+@Html.ActionLink("View Local Pdf #2", "Viewer", "Home", new { filePath = "/MyPDFs/Pdf3.pdf" }, new { target = "_blank" })
+<br />
+@Html.ActionLink("View FTP location Pdf", "Viewer", "Home", new { filePath = "//seinpuma103025//ftpAutoLogin////ExtractedPdfFiles//COAM-D-19-01442.pdf" }, new { target = "_blank" })
+
+
+
+
+
